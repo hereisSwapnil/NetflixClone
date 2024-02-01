@@ -17,9 +17,17 @@ export const Row = ({ title, fetchURL, isLargeRow }) => {
   console.log(movies);
 
   return (
-    <div className="flex space-x-3">
-      <h1>ok</h1>
-      <VideoCard movies={movies} isLarge={true} />
-    </div>
+    <React.Fragment>
+      <h1
+        className={`text-white px-5 mt-10 font-extrabold ${
+          isLargeRow ? "text-3xl" : "text-2xl"
+        } `}
+      >
+        {title}
+      </h1>
+      <div className="flex px-5 py-5 space-x-3 overflow-x-scroll overflow-y-hidden no-scrollbar mb-10">
+        <VideoCard movies={movies} isLarge={isLargeRow} />
+      </div>
+    </React.Fragment>
   );
 };

@@ -1,12 +1,14 @@
-import { HomeScreen } from "./components/HomeScreen/HomeScreen";
-import { Navbar } from "./components/Navbar/Navbar";
+import { Profile } from "./Pages/Profile/Profile";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HomeScreen } from "./Pages/HomeScreen/HomeScreen";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <HomeScreen />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomeScreen />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
