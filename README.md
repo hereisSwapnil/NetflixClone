@@ -1,8 +1,46 @@
-# React + Vite
+# NetflixClone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NetflixClone is a web application that emulates the frontend of the popular streaming service, Netflix, providing users with access to a wide range of movies and TV shows. Built with React.js and integrated with the TMDB API.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Extensive Content Library:** Explore a vast collection of movies and TV shows from various genres and categories, offering something for every viewer's taste.
+
+- **User-friendly Interface:** Navigate through the application effortlessly with an intuitive and visually appealing interface reminiscent of the original Netflix design.
+- **Responsive Design:** Enjoy a consistent and optimized viewing experience across all devices, including desktops, tablets, and smartphones.
+
+## Live Demo
+
+Check out the live demo of Netflix Clone [here]().
+
+## Screenshots
+
+![image.png](https://i.postimg.cc/Vv90BMf0/image.png)
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+You will find a `.env.sample` file to refer.
+
+`API_KEY`
+`VITE_TMBD_API_KEY`
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/hereisSwapnil/NetflixClone.git
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+ npm run dev
+```
