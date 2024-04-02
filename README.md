@@ -11,7 +11,7 @@ NetflixClone is a web application that emulates the frontend of the popular stre
 
 ## Live Demo
 
-Check out the live demo of Netflix Clone [here]().
+Check out the live demo of Netflix Clone [here](https://netflix-clone-vite-one.vercel.app/).
 
 ## Screenshots
 
